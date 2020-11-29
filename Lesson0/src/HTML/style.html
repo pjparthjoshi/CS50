@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello!</title>
+    <!-- Either use <style> tag or use css links-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Id is unique to one tag for applying to same to mutiple tags use class-->
+    <style>
+        #foo{
+            color: green;
+        }
+
+        .baz{
+            color: greenyellow;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="color:blue; text-align: center;">Welcome to my webpage </h1>
+    <h2 id="foo">This is the second heading</h2> <!--reference using ids-->
+    <!--classes-->
+    <h1 class="baz">Try classes line 1</h1>
+    <h1 class="baz">Try classes line 2</h1>
+
+    <!--Precedence: for styling known as specificity in css
+        inline
+        id 
+        classes
+        type -->
+    
+    Hello world!
+</body>
+</html>
